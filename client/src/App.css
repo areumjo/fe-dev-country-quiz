@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.quiz-box {
+  width: 500px;
+  margin: 50px auto;
+  padding: 100px 0;
+  background-color: wheat;
+  border-radius: 20px;
+}
