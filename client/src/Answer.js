@@ -1,22 +1,32 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Answer = (props) => {
 
-    const { name, capital, correctAnswer } = props;
-    const [ answerClassName, setAnswerClassName ] = useState("answer");
+    const { name, capital, correctAnswer, setIsNextOn, correctNumber, setCorrectNumber, isDisabled, setIsDisabled } = props;
+
+    const [ answerColor, setAnswerColor ] = useState("");
 
     const handleClickAnswer = () => {
         console.log('clicked', capital, name)
+        setIsNextOn(true);
+        setIsDisabled(true);
         if (capital === correctAnswer["capital"]) {
-            setAnswerClassName("correct-answer");
+            setAnswerColor("correct-answer");
+            setCorrectNumber(correctNumber+1);
         } else {
-            setAnswerClassName("wrong-answer");
+            setAnswerColor("wrong-answer");
+            // add feature showing right answer
         }
-        // setIsNextOn(true);
     }
 
+    useEffect(() => {
+        setAnswerColor("answer")
+    }, [correctAnswer])
+
     return (
-        <p className={answerClassName} onClick={handleClickAnswer}>{name}</p>
+        <>
+            <button key={name} className={answerColor} onClick={handleClickAnswer} disabled={isDisabled}>{name}</button>
+        </>
     )
 }
 
