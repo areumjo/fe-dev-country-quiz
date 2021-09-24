@@ -61,6 +61,10 @@ function App() {
         isResultOn ? <Result setQuizNumber={setQuizNumber} setIsResultOn={setIsResultOn} correctNumber={correctNumber} setCorrectNumber={setCorrectNumber}/> :
         <Quiz fourCountries={fourCountries} handleClickNext={handleClickNext} isNextOn={isNextOn} setIsNextOn={setIsNextOn} correctNumber={correctNumber} setCorrectNumber={setCorrectNumber}/>}
       {/* { isResultOn && <div>result</div>} */}
+      <footer>
+        <p>created by Areum Jo</p>
+        <p>areumjo@gmail.com</p>
+      </footer>
     </div>
   );
 }
