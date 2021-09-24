@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/county-quiz/static/css/main.ef60ef40.chunk.css",
+    "main.js": "/county-quiz/static/js/main.7aaf3dd8.chunk.js",
+    "main.js.map": "/county-quiz/static/js/main.7aaf3dd8.chunk.js.map",
+    "runtime-main.js": "/county-quiz/static/js/runtime-main.4e2e10a2.js",
+    "runtime-main.js.map": "/county-quiz/static/js/runtime-main.4e2e10a2.js.map",
+    "static/js/2.408918e5.chunk.js": "/county-quiz/static/js/2.408918e5.chunk.js",
+    "static/js/2.408918e5.chunk.js.map": "/county-quiz/static/js/2.408918e5.chunk.js.map",
+    "static/js/3.09c18ef3.chunk.js": "/county-quiz/static/js/3.09c18ef3.chunk.js",
+    "static/js/3.09c18ef3.chunk.js.map": "/county-quiz/static/js/3.09c18ef3.chunk.js.map",
+    "index.html": "/county-quiz/index.html",
+    "static/css/main.ef60ef40.chunk.css.map": "/county-quiz/static/css/main.ef60ef40.chunk.css.map",
+    "static/js/2.408918e5.chunk.js.LICENSE.txt": "/county-quiz/static/js/2.408918e5.chunk.js.LICENSE.txt",
+    "static/media/adventure.f189c3d8.svg": "/county-quiz/static/media/adventure.f189c3d8.svg",
+    "static/media/bgimg.dd5eb08b.jpg": "/county-quiz/static/media/bgimg.dd5eb08b.jpg",
+    "static/media/winner.82d7783b.svg": "/county-quiz/static/media/winner.82d7783b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e2e10a2.js",
+    "static/js/2.408918e5.chunk.js",
+    "static/css/main.ef60ef40.chunk.css",
+    "static/js/main.7aaf3dd8.chunk.js"
+  ]
+}
